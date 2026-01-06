@@ -37,4 +37,7 @@ if (form) {
             form.appendChild(status);
         });
     });
+
+    // Esto pone el año actual automáticamente cada vez que carga la web
+document.querySelector('.footer__credits').innerHTML = `&copy; ${new Date().getFullYear()} Daker Systems. Diseñado para el éxito digital.`;
 }
